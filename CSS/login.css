@@ -1,0 +1,107 @@
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font Google */
+html, body{
+  font-family: 'Montserrat', sans-serif;
+  /* 1rem = 18px; */
+  /* khi không khai báo thì mặc định 1rem = 16px */
+  font-size: 18px;
+}
+
+/*..........................*/
+
+.wrapper{
+  min-height: 100vh;
+  /* background-color: red; */
+}
+
+/*.........SECTION..........*/
+
+.bg{
+  background-image: url("../images/login.png");
+  background-color: #cccccc;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.title{
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 35px 10px 10px 10px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.signin{
+  height: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,.7);
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.signin input[type="text"], .signin input[type="password"], .signin input[type="email"]{
+  display: block;
+  outline: none;
+  font-size: 15px;
+  color: rgba(255,255,255, 1);
+  font-weight: 500;
+  text-align: left;
+  height: 30px;
+  width: 95.5%;
+  border: none;
+  border-bottom: 1px solid #889ba0;
+  -webkit-appearance: none;
+  margin: 5px auto 10px auto;
+  background: transparent;
+  letter-spacing: 1px;
+}
+a.forgot {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #df5799;
+}
+.submit input[type="submit"] {
+  background: #e0e0e0;
+  color: #000;
+  outline: none;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  padding: 10px 5%;
+  font-size: 14px;
+  width: 90%;
+  margin-top: .7em;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.signup {
+  font-size: 14px;
+  color: #eee;
+  margin-top: 1em;
+  /* text-align: center; */
+  text-transform: none;
+  letter-spacing: 1px;
+}
+.signup a {
+  color: #df5799;
+  outline: none;
+  text-decoration: none;
+  margin-right: 8px;
+  font-weight: 600;
+}

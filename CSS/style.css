@@ -1,0 +1,67 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+/* GLOBAL */
+/* from unline to block */
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Google */
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    /* 1rem = 18px; */
+    /* khi không khai báo thì mặc định 1rem = 16px */
+    font-size: 18px;
+}
+
+/*..........................*/
+
+.wrapper{
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
+/*.........SECTION..........*/
+
+section{
+    background-image: url("../images/b1.png");
+    background-color: #cccccc;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.box{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    text-align: center;
+}
+.box h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+}
+.box h2{
+    font-size: 1.5rem;
+    color: rgb(214, 213, 213);
+    /* text-transform: none; */
+}
+.box a {
+    color: #df5799;
+    outline: none;
+    text-decoration: none;
+    margin-right: 8px;
+    font-weight: 600;
+  }

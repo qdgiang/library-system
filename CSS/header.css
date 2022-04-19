@@ -1,0 +1,42 @@
+/*.........HEADER...........*/
+
+header{
+  background-color: rgba(0, 0, 0,0.75);
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+  /* margin: auto; */
+  margin-bottom: 0px;
+}
+
+.logo{
+  float: left;
+  padding-left: 20px;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+nav{
+  float: right;
+  word-spacing: 50px;
+  padding: 22px 40px;
+}
+nav li{
+  display: inline-block;
+  font-size: 15px;
+  border-bottom: 2px solid white;
+  /* line-height: 40px; */
+}
+header li:hover a{
+  color: #df5799;
+  transition: all 0.5s
+}
+header li:hover{
+  border-bottom: 2px solid rgba(253, 253, 253, 0);
+  transition: all 0.5s;
+}
+.right{
+  display: flex;
+}
